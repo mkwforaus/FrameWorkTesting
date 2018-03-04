@@ -6,13 +6,11 @@
     </head>
     <body>
         <?php
-            function writeMsg($yourMsg) {
-                echo "<p>" . $yourMsg . "</p>";
-                return $yourMsg;
-                }
+            function writeMsg($msg){
+                return $msg;
+            }
             
-            writeMsg("Hello");    
-        ?>
-    <body>
+            echo writeMsg("Hello");
+        ?>      
+    </body>
 </html>
-
